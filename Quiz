@@ -1,0 +1,100 @@
+using System;
+
+namespace Trabalho_Quiz_Final_Fantasy
+{
+        class Program
+    {
+        static void Main(string[] args)
+        {
+            int pontuação = 0;
+            Console.WriteLine("Quiz Final Fantasy - Gabriel B.M.A Pimenta \n");
+            Console.WriteLine("1-Qual foi a primeira publicação de final fantasy?"); 
+            Console.WriteLine("A)1901 ");
+            Console.WriteLine("B)1987 ");
+            Console.WriteLine("C)1973 ");
+            Console.WriteLine("D)1201 ");
+            Console.Write("R:");
+            string um = Console.ReadLine();
+            if(um == "1987")
+            {
+                pontuação++;
+                Console.WriteLine("Correto");
+            }
+            else
+            {
+                Console.WriteLine("Errouu!!!");
+            }
+                      Console.ReadLine();
+            Console.WriteLine("2- Qual final fantasy é o mais conhecido hoje em dia? \n");
+            Console.WriteLine("A) Final Fantasy X ");
+            Console.WriteLine("B) Final Fantasy XIV ");
+            Console.WriteLine("C) Final Fantasy ");
+            Console.WriteLine("D) Final Fantasy VII");
+            Console.Write("R:");
+            string dois = Console.ReadLine();
+            if (dois == "Final Fantasy VII")
+            {
+                pontuação++;
+                Console.Write("Correto");
+            }
+            else
+            {
+                Console.WriteLine("Errouu!!!");
+            }
+                Console.ReadLine();
+            Console.WriteLine("3- Qual é o estilo de jogo mais presente na franquia Final Fantasy? \n");
+            Console.WriteLine("A) RPG ");
+            Console.WriteLine("B) Hack and slash ");
+            Console.WriteLine("C) FPS ");
+            Console.WriteLine("D)JRPG ");
+            Console.Write("R:");
+            string três = Console.ReadLine();
+            if (três == "JRPG")
+            {
+                pontuação++;
+                Console.WriteLine("Correto");
+            }
+            else
+            {
+                Console.WriteLine("Errouu!!!");
+            }
+                Console.ReadLine();
+            Console.WriteLine("4- De que país a franquia final fantasy nasceu \n");
+            Console.WriteLine("A) Austrália");
+           Console.WriteLine("B) Estados Unidos da América ");
+            Console.WriteLine("C) Brasil ");
+            Console.WriteLine("D) Japão ");
+            Console.Write("R:");
+            string quatro = Console.ReadLine();
+            if (quatro == "Japão")
+            {
+                pontuação++;
+                Console.WriteLine("Correto");
+            }
+            else
+            {
+                Console.WriteLine("Errouu!!!");
+            }
+               Console.ReadLine();
+            Console.WriteLine("5- Qual é a sigla de Final Fantasy? \n");
+            Console.WriteLine("A) FIF ");
+            Console.WriteLine("B) FF ");
+            Console.WriteLine("C) LOL ");
+            Console.WriteLine("D) RD ");
+            Console.Write("R:");
+            string cinco = Console.ReadLine();
+            if (cinco == "FF")
+            {
+                pontuação++;
+                Console.WriteLine("Correto");
+            }
+            else
+            {
+                Console.WriteLine("Errouu!!!");
+            }
+            Console.WriteLine($"você acertou {pontuação} de 5");
+                 Console.ReadLine();
+            Console.WriteLine("Obrigado por jogar");
+        }
+    }
+}
